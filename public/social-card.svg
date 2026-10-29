@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#152426"/>
+  <path d="M24 24h1152v582H24z" fill="none" stroke="#344547" stroke-width="2"/>
+  <circle cx="1060" cy="132" r="160" fill="#c7dc6a" opacity=".12"/>
+  <path d="M92 403 209 168h53l117 235h-69l-22-48H181l-22 48zm115-102h57l-29-65z" fill="#f0eee7"/>
+  <circle cx="349" cy="181" r="19" fill="#c7dc6a"/>
+  <text x="92" y="482" fill="#f0eee7" font-family="Arial, sans-serif" font-size="56" font-weight="700" letter-spacing="13">AXIAL</text>
+  <text x="96" y="535" fill="#c7dc6a" font-family="Arial, sans-serif" font-size="19" letter-spacing="4">OFICINA INDEPENDENTE</text>
+  <path d="M720 392h343M720 415h255" stroke="#607174" stroke-width="2"/>
+  <text x="720" y="300" fill="#f0eee7" font-family="Georgia, serif" font-size="44">Seu carro em</text>
+  <text x="720" y="352" fill="#c7dc6a" font-family="Georgia, serif" font-size="48" font-style="italic">boas mãos.</text>
+</svg>
