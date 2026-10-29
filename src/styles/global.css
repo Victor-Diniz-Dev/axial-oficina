@@ -127,6 +127,7 @@ a:hover .arrow, button:hover .arrow { transform: translate(3px, -3px); }
   .mobile-nav { position: fixed; z-index: 9; inset: 0; display: flex; visibility: hidden; flex-direction: column; justify-content: center; gap: .45rem; padding: 6rem 1.5rem 2rem; color: var(--paper); background: var(--night); opacity: 0; transform: translateY(-1rem); transition: opacity .3s ease, transform .3s ease, visibility .3s; }
   .mobile-nav.is-open { visibility: visible; opacity: 1; transform: translateY(0); }
   .mobile-nav > a:not(.button) { display: flex; justify-content: space-between; align-items: center; padding: .55rem 0; font-size: clamp(2.2rem, 9vw, 4rem); letter-spacing: -.06em; }
+  .mobile-nav > a:not(.button) .arrow { flex: 0 0 auto; margin-left: 1rem; font-size: .825rem; letter-spacing: normal; }
   .mobile-nav .button { width: fit-content; margin-top: 1.2rem; }
   .hero { width: var(--shell); margin: .75rem auto 0; min-height: auto; grid-template-columns: 1fr; gap: 1rem; padding: 4.5rem 1.25rem 1.25rem; }
   .hero-copy { min-height: 31rem; padding: 2.5rem .5rem 1.5rem; }
