@@ -34,7 +34,7 @@ img { display: block; max-width: 100%; }
 h1, h2, h3, p { margin-top: 0; }
 h1, h2 { letter-spacing: -.055em; font-weight: 500; }
 h1 em, h2 em { font-family: var(--serif); font-weight: 500; }
-.arrow { display: inline-block; margin-left: .45em; font-size: 1.1em; transition: transform .25s ease; }
+.arrow { display: inline-block; flex: 0 0 .9rem; width: .9rem; height: .9rem; margin-left: .45em; vertical-align: -.12em; transition: transform .25s ease; }
 a:hover .arrow, button:hover .arrow { transform: translate(3px, -3px); }
 
 .site-header { position: fixed; z-index: 21; top: 1rem; left: max(calc((100% - var(--shell)) / 2), 1rem); right: max(calc((100% - var(--shell)) / 2), 1rem); height: 5rem; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; padding-inline: clamp(1rem, 3vw, 3rem); color: var(--paper); transition: background .3s ease, color .3s ease, height .3s ease, top .3s ease, border-radius .3s ease; }
@@ -127,7 +127,7 @@ a:hover .arrow, button:hover .arrow { transform: translate(3px, -3px); }
   .mobile-nav { position: fixed; z-index: 9; inset: 0; display: flex; visibility: hidden; flex-direction: column; justify-content: center; gap: .45rem; padding: 6rem 1.5rem 2rem; color: var(--paper); background: var(--night); opacity: 0; transform: translateY(-1rem); transition: opacity .3s ease, transform .3s ease, visibility .3s; }
   .mobile-nav.is-open { visibility: visible; opacity: 1; transform: translateY(0); }
   .mobile-nav > a:not(.button) { display: flex; justify-content: space-between; align-items: center; padding: .55rem 0; font-size: clamp(2.2rem, 9vw, 4rem); letter-spacing: -.06em; }
-  .mobile-nav > a:not(.button) .arrow { flex: 0 0 auto; margin-left: 1rem; font-size: .825rem; letter-spacing: normal; }
+  .mobile-nav > a:not(.button) .arrow { flex-basis: .9rem; width: .9rem; height: .9rem; margin-left: 1rem; }
   .mobile-nav .button { width: fit-content; margin-top: 1.2rem; }
   .hero { width: var(--shell); margin: .75rem auto 0; min-height: auto; grid-template-columns: 1fr; gap: 1rem; padding: 4.5rem 1.25rem 1.25rem; }
   .hero-copy { min-height: 31rem; padding: 2.5rem .5rem 1.5rem; }
